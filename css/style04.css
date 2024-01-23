@@ -1,0 +1,154 @@
+@charset "utf-8";
+
+.topBand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7vw;
+    background-color: #02065D;
+    width: 100%;
+    height: 120px;
+
+    @media (max-width:500px) {
+        display: block;
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+h1 {
+    font-size: 3rem;
+    color: #fff;
+}
+
+h3 {
+    font-size: 1rem;
+    color: #fff;
+}
+
+.topBandItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+}
+
+.topBandItem02 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1vw;
+    @media (max-width:500px) {
+		display: block;
+		text-align: center;
+		padding: 10px;
+        font-size:0.3rem;
+	}
+}
+
+.homeWrap {
+    margin: 0px auto;
+    height: 200vh;
+    width: 100vw;
+    background-color: aliceblue;
+}
+
+.homeText {    
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.homeTextP{
+    margin-top: 20px;
+}
+
+.bootstrap {
+    margin: 0 auto;
+    padding: 0 0 0 35vw;
+        
+    @media (max-width:700px) {
+        padding: 0 0 0 10vw;
+    }
+}
+
+.border {
+    background-color: #fff;
+}
+
+.modalH1{
+    color: black;
+    font-size: 2rem;
+}
+
+.border_btn04 {
+    display: inline-block;
+    width: 25%;
+    max-width: 125px; /* ボタン幅 */
+    position: relative;
+    color: #F88400; /* 文字色 */
+    border: 3px solid #F88400; /* 線幅・種類・色 */
+    border-radius: 30vw;
+    background: #fff; /* 背景色 */
+    padding: 0.2rem 0.3rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+  }
+
+
+/*全体*/
+
+#demo {
+    text-align: center;
+}
+
+.title {
+    background: #999;
+    color: #fff;
+    width: 80%;
+    margin: 10px auto 30px auto;
+}
+
+input {
+    margin: auto;
+    border: solid 1px #666;
+}
+
+.result {
+    position: relative;
+    margin: 10px auto;
+}
+
+.result {
+    position: relative;
+    margin: 10px auto;
+}
+
+.result .res {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+}
+
+.trans-enter-active,
+.trans-leave-active {
+    transition: all .5s;
+}
+
+.trans-enter-to,
+.trans-leave {
+    opacity: 1;
+}
+
+.trans-enter {
+    opacity: 0;
+    transform: translate(-50%, 10px) !important;
+}
+
+.trans-leave-to {
+    opacity: 0;
+    transform: translate(-50%, -10px) !important;
+}
