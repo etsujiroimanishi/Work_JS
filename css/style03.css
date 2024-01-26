@@ -1,19 +1,37 @@
 @charset "utf-8";
 
 .topBand {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 7vw;
-    background-color: #02065D;
-	  width: 100%;       
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7vw;
+  background-color: #02065D;
+  width: 100%;
 
-    @media (max-width:500px) {
-		display: block;
-		text-align: center;
-		padding: 10px;
-	}
+  @media (max-width:500px) {
+    display: block;
+    text-align: center;
+    padding: 10px;
+  }
 }
+
+h1 {
+  font-size: 3rem;
+  color: #fff;
+}
+
+h3 {
+  font-size: 1rem;
+  color: #fff;
+}
+
+.topBandItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5vw;
+}
+
 .topBandItem02 {
 	display: flex;
 	justify-content: center;
@@ -25,29 +43,6 @@
 		padding: 10px;
         font-size:0.3rem;
 	}
-}
-
-h1{
-	font-size: 3rem;
-	color: #fff;
-}
-
-h3 {
-	font-size: 1rem;
-	color: #fff;
-}
-
-.topBandItem {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	gap: 5vw;
-}
-.topBandItem02 {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	gap: 1vw;
 }
 .homeWrap{
     margin: 0 auto;
@@ -75,8 +70,10 @@ h3 {
 #lineChart,#barChart,#ChartID{
     margin: 0 auto;
     padding:  0 0 0 10vw;
+    width:80%;
     @media (max-width:700px) {    
         padding: 10px;
+        width: 60%;
       }
 }
 

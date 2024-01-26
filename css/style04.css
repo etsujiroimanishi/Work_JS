@@ -34,16 +34,17 @@ h3 {
 }
 
 .topBandItem02 {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	gap: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+
     @media (max-width:500px) {
-		display: block;
-		text-align: center;
-		padding: 10px;
-        font-size:0.3rem;
-	}
+        display: block;
+        text-align: center;
+        padding: 10px;
+        font-size: 0.3rem;
+    }
 }
 
 .homeWrap {
@@ -53,21 +54,22 @@ h3 {
     background-color: aliceblue;
 }
 
-.homeText {    
+.homeText {
     height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
 }
-.homeTextP{
+
+.homeTextP {
     margin-top: 20px;
 }
 
 .bootstrap {
     margin: 0 auto;
     padding: 0 0 0 35vw;
-        
+
     @media (max-width:700px) {
         padding: 0 0 0 10vw;
     }
@@ -77,7 +79,7 @@ h3 {
     background-color: #fff;
 }
 
-.modalH1{
+.modalH1 {
     color: black;
     font-size: 2rem;
 }
@@ -85,17 +87,21 @@ h3 {
 .border_btn04 {
     display: inline-block;
     width: 25%;
-    max-width: 125px; /* ボタン幅 */
+    max-width: 125px;
+    /* ボタン幅 */
     position: relative;
-    color: #F88400; /* 文字色 */
-    border: 3px solid #F88400; /* 線幅・種類・色 */
+    color: #F88400;
+    /* 文字色 */
+    border: 3px solid #F88400;
+    /* 線幅・種類・色 */
     border-radius: 30vw;
-    background: #fff; /* 背景色 */
+    background: #fff;
+    /* 背景色 */
     padding: 0.2rem 0.3rem;
     font-weight: bold;
     text-decoration: none;
     text-align: center;
-  }
+}
 
 
 /*全体*/
@@ -151,4 +157,13 @@ input {
 .trans-leave-to {
     opacity: 0;
     transform: translate(-50%, -10px) !important;
+}
+
+@media (max-width:700px) {
+    .col-5 {
+        max-width: 90%;
+    }
+    .col-7 {
+        max-width: 90%;
+    }
 }
